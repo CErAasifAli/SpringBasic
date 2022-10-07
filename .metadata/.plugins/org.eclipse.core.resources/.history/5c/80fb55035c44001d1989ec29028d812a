@@ -1,0 +1,11 @@
+package com.nit.comp;
+
+public class LuxuryCar extends Car {
+
+	@Override
+	public void driver() {
+		System.out.println("Driving Luxury Car");
+
+	}
+
+}

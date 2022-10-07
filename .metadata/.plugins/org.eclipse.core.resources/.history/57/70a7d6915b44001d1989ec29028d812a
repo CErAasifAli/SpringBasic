@@ -1,0 +1,11 @@
+package com.nit.comp;
+
+public class BudgetCar extends Car {
+
+	@Override
+	public void driver() {
+		System.out.println("Driving Budget Car");
+
+	} 
+
+}

@@ -1,0 +1,13 @@
+package com.nit.comp;
+
+public class DTDC implements Courier {
+
+	public DTDC() {
+		System.out.println("BlueDart::0-param constructor");
+	}
+	@Override
+	public String deliver(int old) {
+		return old+"order id order delivered by BlueDart ";
+	}
+
+}

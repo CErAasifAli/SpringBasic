@@ -1,0 +1,8 @@
+package com.nit.test;
+
+public class Customer1 {
+	public static void main(String[] args) {
+		Car car=new BudgetCar("TS09EN 5656");
+		car.driver();
+	}
+}

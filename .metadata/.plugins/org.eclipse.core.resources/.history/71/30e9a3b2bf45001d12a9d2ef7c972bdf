@@ -1,0 +1,12 @@
+package com.nit.comp;
+
+public class flipkart {
+	 //HAS-A property of type interface
+	private Courier courier;  
+		
+	public flipkart() {
+		System.out.println("flipkart::0-param constructor");
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package com.nit.comp;
+
+public class SportsCar extends Car {
+
+	@Override
+	public void driver() {
+		System.out.println("Driving Sports Car");
+
+	}
+
+}
