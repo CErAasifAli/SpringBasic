@@ -32,6 +32,11 @@ public class WishMessageGenerator {
 		else 
 			return"Good Night::"+user;
 	}//method
+	@Override
+	public String toString() {
+		return "WishMessageGenerator [date=" + date + "]";
+	}
+	
 }	//class
 	
 		
